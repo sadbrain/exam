@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px 20px 30px;
+}
+.form > p{
+    font-size: 15px;
+    color: #b1b1b1;
+    margin: 7px 0;
+}
+.form .form-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.form .form-body .form-1{
+    border: 1px solid #ccc;
+    width: 48%;
+    padding: 25px 20px 10px 25px;
+
+}
+.form .form-body .form-2{
+    border: 1px solid #ccc;
+    width: 48%;
+    padding: 25px 0 10px 25px;
+}
+.form .form-body .form-1 .checkbox :not(.form-1 .checkbox:nth-child(1)){
+
+    margin-top: 5px;
+}
+.form .form-body .form-1 .checkbox input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+.form .form-body .form-1 .checkbox label{
+    font-size: 15px;
+    color: #b1b1b1;
+    margin-left: 10px;
+}
+.form .form-body .form-1 .select-address{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0 25px 0;
+}.form .form-body .form-1 .select-address>div{
+    width: 33%;
+}
+.form .form-body .form-1 .select-address div p{
+    font-size: 15px;
+    color: #b1b1b1;
+    margin-bottom: 5px;
+}
+.form .form-body .form-1 .select-address div select{
+    background-color: #f0f0e9;
+    width: 100%;
+}   
+.form .form-body .form-1 .select-address div input[type="text"]{
+    width: 100%;
+}   
+.form .form-body input[type="button"]{
+    background-color: #feae43;
+    color: #fff;
+    border: 1px solid #feae43;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form .form-body .form-2>div {
+    background-color: #e6e4df;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px ;
+    color: #b1b1b1;
+}
+.form .form-body .form-2>div:not(.form .form-body .form-2>div:nth-child(1)){
+    margin-top: 10px;
+}
+.form .form-body .form-2 input[type="button"]{
+    margin-top: 20px;
+}
