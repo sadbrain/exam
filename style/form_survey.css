@@ -28,7 +28,7 @@
 .form .form-body .form-2{
     border: 1px solid #ccc;
     width: 48%;
-    padding: 25px 0 10px 25px;
+    padding: 25px 20px 10px 25px;
 }
 .form .form-body .form-1 .checkbox :not(.form-1 .checkbox:nth-child(1)){
 
